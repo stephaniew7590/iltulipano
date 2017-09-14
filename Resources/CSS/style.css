@@ -104,30 +104,34 @@ li {
 }
 
 .ebookcover {
+  display: inline-block;
   padding-left: 100px;
-  padding-top: 20px;
+  float: left;
 }
 
 .ebooktext {
   display: inline-block;
-  width: 500px;
-  height: 200px;
-  vertical-align: top;
+  width: 400px;
   padding-left: 50px;
+  float: center;
+}
+
+.emailcapture {
+  display:inline-block;
+  padding-left: 100px;
+  float: right;
 }
 
 .contactform {
-    display: inline-block;
-    border: 2px solid #d26464;
-    padding: 5px;
-    width: 300px;
-    height: 200px;
-    float: right;
+  border: 2px solid #d26464;
+  padding: 5px;
+  width: 300px;
 }
 
 .contactform h4 {
   color: #777777;
   padding-left: 15px;
+  margin: 5px 5px;
 }
 
 .container {
@@ -146,6 +150,12 @@ input[type=text], select, textarea {
     font-size: 12px;
 }
 
+label[for] {
+  font-family: 'Lato';
+  font-size: 12px;
+  color: #777777;
+}
+
 input[type=submit] {
     background-color: #d26464;
     color: white;
@@ -158,4 +168,28 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #777777;
+}
+
+.line hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #777777;
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+}
+
+.aboutus {
+  position: relative;
+  text-align: center;
+  display: block;
+  width: auto;
+  padding: 25px 250px;
+
+}
+
+.aboutus h4, .aboutus p {
+  color: #777777;
+  line-height: 20px;
 }
