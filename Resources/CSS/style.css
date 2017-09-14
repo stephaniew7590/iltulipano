@@ -1,6 +1,6 @@
 h1 {
   font-size: 52px;
-  font-family: 'Niconne', cursive;
+  font-family: 'Niconne';
 }
 
 h2 {
@@ -24,6 +24,17 @@ h5 {
 }
 
 p {
+  font-size: 12px;
+  font-family: 'Lato';
+}
+
+ul {
+  font-size: 12px;
+  font-family: 'Lato';
+  list-style-position: inside;
+}
+
+li {
   font-size: 12px;
   font-family: 'Lato';
 }
@@ -65,4 +76,86 @@ p {
 .landingbanner h2 {
   color: white;
   text-align: center;
+}
+
+.ebookheader h3 {
+  color: #d26464;
+  padding-left: 100px;
+}
+
+.ebookcover img {
+  box-shadow: 6px 6px 8px #777777;
+  vertical-align: center;
+  float: left;
+}
+
+.ebooktext h5{
+  color: #d26464;
+}
+
+.ebooktext p {
+  color: #777777;
+  line-height: 20px;
+}
+
+.ebooktext li {
+  color: #777777;
+  line-height: 20px;
+}
+
+.ebookcover {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.ebooktext {
+  display: inline-block;
+  width: 500px;
+  height: 200px;
+  vertical-align: top;
+  padding-left: 50px;
+}
+
+.contactform {
+    display: inline-block;
+    border: 2px solid #d26464;
+    padding: 5px;
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+
+.contactform h4 {
+  color: #777777;
+  padding-left: 15px;
+}
+
+.container {
+  padding: 15px 15px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #777777;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Lato';
+    font-size: 12px;
+}
+
+input[type=submit] {
+    background-color: #d26464;
+    color: white;
+    padding: 7px 30px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Lusitana';
+    text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+    background-color: #777777;
 }
