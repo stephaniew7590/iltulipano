@@ -1,0 +1,68 @@
+h1 {
+  font-size: 52px;
+  font-family: 'Niconne', cursive;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: 'Lusitana', bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: 'Lusitana';
+}
+
+h4 {
+  font-size: 36px;
+  font-family: 'Niconne', cursive;
+}
+
+h5 {
+  font-size: 16px;
+  font-family: 'Lusitana';
+}
+
+p {
+  font-size: 12px;
+  font-family: 'Lato';
+}
+
+.logo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-left: 100px;
+}
+
+.landingbanner {
+  position: relative;
+}
+
+.landingbanner img {
+  width: 100%;
+}
+
+.bannercontainer {
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 350px;
+}
+
+.bannercontainer .textcontainer {
+  position: relative;
+  top: 50%;
+}
+
+.landingbanner h1 {
+  color: white;
+  text-align: center;
+}
+
+.landingbanner h2 {
+  color: white;
+  text-align: center;
+}
